@@ -1,0 +1,8 @@
+streamlit
+numpy
+opencv-python
+Pillow
+tensorflow
+matplotlib
+google-cloud-aiplatform #this is required
+google-cloud-logging  #this is required

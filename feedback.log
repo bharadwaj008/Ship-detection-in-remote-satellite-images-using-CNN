@@ -1,0 +1,44 @@
+2024-11-04 16:54:53,638 - From C:\Users\kamep\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-11-04 16:57:33,484 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 16:57:33,512 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:00:42,752 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:00:42,768 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:02:17,721 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:02:17,721 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:04:50,601 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:04:50,614 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:11:13,542 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:11:13,558 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:11:49,078 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:11:49,088 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:11:52,439 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:11:52,440 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:16:19,178 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:16:19,188 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:20:16,249 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:20:16,260 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:22:29,523 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:22:29,532 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:23:15,287 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:23:15,301 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:23:21,483 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:23:21,495 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:23:29,162 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:23:29,175 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:23:32,905 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:23:32,920 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:26:10,268 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:26:10,278 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:26:14,812 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:26:14,821 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:26:15,198 - 5 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000210B10CFCE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-11-04 17:28:52,498 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:28:52,515 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:29:00,063 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:29:00,063 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:29:08,349 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:29:08,368 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:29:11,753 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-04 17:29:11,763 - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-11-04 17:29:12,146 - 6 out of the last 8 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000210B10CFD80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
