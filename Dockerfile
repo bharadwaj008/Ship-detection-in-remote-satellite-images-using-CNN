@@ -1,20 +1,26 @@
-# Use an official lightweight Python image.
-FROM python:3.8-slim
+# Use an official Python 3.10 runtime as a parent image
+FROM python:3.10-slim
 
 # Set the working directory in the Docker container to /app
 WORKDIR /app
 
-# Copy the local directory contents to the container at /app
+# Install system dependencies required by OpenCV and others
+RUN apt-get update && apt-get install -y \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy the local directory contents into the container at /app
 COPY . /app
 
-# Install any necessary packages specified in requirements.txt
+# Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 8501 available to the world outside this container
 EXPOSE 8501
 
-# Define an environment variable
+# Define environment variable
 ENV NAME World
 
-# Command to run on container start: run the Streamlit application
+# Run app.py when the container launches
 CMD ["streamlit", "run", "ship-prediction-app.py"]
