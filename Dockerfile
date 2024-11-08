@@ -25,3 +25,4 @@ ENV NAME=World
 
 # Run app.py when the container launches
 CMD ["streamlit", "run", "ship-prediction-app.py"]
+
